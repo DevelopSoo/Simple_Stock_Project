@@ -1,5 +1,5 @@
 {
-  "name": "project-name",
+  "name": "simple_stock_project",
   "version": "0.0.1",
   "description": "",
   "author": "",
@@ -23,7 +23,14 @@
   "dependencies": {
     "@nestjs/common": "^8.0.0",
     "@nestjs/core": "^8.0.0",
+    "@nestjs/mapped-types": "*",
     "@nestjs/platform-express": "^8.0.0",
+    "@nestjs/platform-fastify": "^8.0.4",
+    "ejs": "^3.1.6",
+    "fastify-static": "^4.2.2",
+    "handlebars": "^4.7.7",
+    "hbs": "^4.1.2",
+    "point-of-view": "^4.15.1",
     "reflect-metadata": "^0.1.13",
     "rimraf": "^3.0.2",
     "rxjs": "^7.2.0"
