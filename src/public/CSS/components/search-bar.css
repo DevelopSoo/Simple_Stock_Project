@@ -1,16 +1,29 @@
 .search {
-
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	padding-top: 70px;
+	margin-top: 40px;
 }
 
 .search_bar {
+	position: relative;
 	align-items: center;
 }
+
+.search_bar > i {
+	position: absolute;
+	left: 15px;
+	top: 20px;
+}
 .search_bar > input {
+	padding: 22px 10px 22px 60px;
 	width: 400px;
-	height: 50px;
+	border: solid 2px #336EFF;
 	border-radius: 20px;
+	font-size: 20px;
+}
+
+.search_bar > input::placeholder {
+	font-size: 15px;
+	color:grey;
 }
